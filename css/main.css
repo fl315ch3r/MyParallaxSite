@@ -78,3 +78,32 @@
 #slide-4 .bcg {
 	background-image: url('../img/bcg_slide-4.jpg')
 }
+
+/* Slide 5 */
+
+#slide-5 {
+	position: relative;
+}
+
+#slide-5 .bcg {
+	background-image: url('../img/bcg_slide-5.jpg');
+}
+
+#slide-5 .bcg2 {
+	background-image: url('../img/bcg_slide-5b.jpg');
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 1
+}
+
+#slide-5 .bcg3 {
+	background: none;
+	background-color: #010101;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 2
+}
